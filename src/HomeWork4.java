@@ -12,7 +12,7 @@ public class HomeWork4 {
         System.out.println(theyCanCook);
 
         // Level2: Вводится число. Если оно четное, то выведите true, иначе false
-        // Number %  > 0
+        // Number %  == 0
         //  если остаток от деления 0 – четное - true
         //  если остаток от деления 1 – нечетное - false
         Scanner scanner = new Scanner(System.in); // урок 13
