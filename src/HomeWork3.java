@@ -12,7 +12,7 @@ public class HomeWork3 {
         // Посчитать, используя Java, Long-переменные и деление.
         // Кто не знает - по какой формуле посчитать - напишите мне, но сначала подумайте
         long lifeOfFeliksInSecond = 3_011_456_567L;
-        long lifeOfFeliksInYear = lifeOfFeliksInSecond / (365 * 24 *60 * 60);
+        long lifeOfFeliksInYear = lifeOfFeliksInSecond / (365 * 24 * 60 * 60);
         System.out.println(lifeOfFeliksInYear);
 
     }
