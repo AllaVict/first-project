@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HomeWork6 {
     public static void main(String[] args) {
- //        level1
+        //        level1
 //        С консоли считывается число. Если это число равно 0 -
 //        тогда напишите на экран "ошибок не обнаружено",
 //        если число не равно 0, тогда выведите три сообщения "ERROR"
@@ -37,7 +37,5 @@ public class HomeWork6 {
         if (FirstNumber != 36 && SecondNumber != 17) {
             System.out.println("Все проиграно! ");
         }
-
-
     }
 }
