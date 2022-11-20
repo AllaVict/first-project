@@ -9,21 +9,26 @@ public class HomeWork7 {
 //        то выведите true, иначе false
         String firstString = scanner.nextLine();
         int length = firstString.length();
-        if (length > 10) {
-            System.out.println("True");
-        } else {
-            System.out.println("False");
-        }
+        boolean firstresult = length > 10;
+        System.out.println(firstresult);
+//        if (length > 10) {
+//            System.out.println("True");
+//        } else {
+//            System.out.println("False");
+//        }
+
 
 //        2) В программу (в консоль) вводится строка. Если первый и
 //        последний символ равны - выведите true, иначе false
         String secondString = scanner.nextLine();
         length = secondString.length();
-        if (secondString.charAt(0) == secondString.charAt(length - 1)) {
-            System.out.println("True");
-        } else {
-            System.out.println("False");
-        }
+        boolean secondResult = secondString.charAt(0) == secondString.charAt(length - 1);
+        System.out.println(secondResult);
+//        if (secondString.charAt(0) == secondString.charAt(length - 1)) {
+//            System.out.println("True");
+//        } else {
+//            System.out.println("False");
+//        }
 
 //        Level2:
 //        В программу вводится строка из двух букв A и B,
