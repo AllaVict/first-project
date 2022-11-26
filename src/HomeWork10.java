@@ -10,7 +10,7 @@ public class HomeWork10 {
             arrayFirst[i] = 10;
         }
         System.out.println(Arrays.toString(arrayFirst));
-        arrayFirst[0] = 0;
+        arrayFirst[1] = 0;
         arrayFirst[99] = 0;
         System.out.println(Arrays.toString(arrayFirst));
 
