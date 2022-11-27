@@ -44,7 +44,6 @@ public class HomeWork9 {
         currentDeposit += startMoney;
         while (y < years) {
             currentDeposit = Math.floor(currentDeposit);
-            System.out.println();
             currentDeposit = currentDeposit + currentDeposit * interest;
             y++;
             System.out.println("Year " + y + " - " + currentDeposit);
