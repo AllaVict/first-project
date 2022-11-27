@@ -31,6 +31,7 @@ public class HomeWork9 {
 //       сколько будет на счету через k лет.
 //       До начала программирования решите эту задачу на бумаге - возьмите p=10, k=2, x = 1000
 //        Обе задачи решаются через for
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Начальная сума: ");
         int startMoney = scanner.nextInt();
