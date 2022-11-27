@@ -31,11 +31,15 @@ public class HomeWork9 {
 //       сколько будет на счету через k лет.
 //       До начала программирования решите эту задачу на бумаге - возьмите p=10, k=2, x = 1000
 //        Обе задачи решаются через for
-        double currentDeposit = 0;
-        double interest = 0.1;
-        int startMoney = 1000;
-        int years = 2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Начальная сума: ");
+        int startMoney = scanner.nextInt();
+        System.out.println("Проценты банка: ");
+        double interest = scanner.nextDouble();
+        System.out.println("Крличество лет: ");
+        int years = scanner.nextInt();
         int y = 0;
+        double currentDeposit = 0;
         currentDeposit += startMoney;
         while (y < years) {
             currentDeposit = currentDeposit + currentDeposit * interest;
