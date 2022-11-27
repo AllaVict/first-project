@@ -18,7 +18,7 @@ public class HomeWork9 {
 //            j++;
 //        }
         int number = 3451;
-        for (int i = number; i <= number; i--) {
+        for (int i = number; i >= 1; i--) {
             if (number % i == 0 && i != number) {
                 System.out.println(i);
                 break;
@@ -27,8 +27,8 @@ public class HomeWork9 {
 
 //        Level2
 //        Вклад в банке составляет x рублей. Ежегодно он увеличивается на p процентов, после чего
-//        дробная часть копеек отбрасывается. Каждый год сумма вклада становится больше. Определите,
-//       сколько будет на счету через k лет.
+//        дробная часть копеек отбрасывается. Каждый год сумма вклада становится больше.
+//        Определите, сколько будет на счету через k лет.
 //       До начала программирования решите эту задачу на бумаге - возьмите p=10, k=2, x = 1000
 //        Обе задачи решаются через for
 
@@ -37,14 +37,12 @@ public class HomeWork9 {
         int startMoney = scanner.nextInt();
         System.out.println("Проценты банка: ");
         double interest = scanner.nextDouble();
-        System.out.println("Крличество лет: ");
+        System.out.println("Кoличество лет: ");
         int years = scanner.nextInt();
         int y = 0;
-        double currentDeposit = 0;
-        currentDeposit += startMoney;
+        double currentDeposit = startMoney;
         while (y < years) {
-            currentDeposit = Math.floor(currentDeposit);
-            currentDeposit = currentDeposit + currentDeposit * interest;
+            currentDeposit = Math.floor(currentDeposit + currentDeposit * interest);
             y++;
             System.out.println("Year " + y + " - " + currentDeposit);
         }
